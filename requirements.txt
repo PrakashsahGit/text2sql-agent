@@ -1,0 +1,23 @@
+# Core LLM / Agent
+langchain==0.3.28
+langchain-community==0.3.31
+langchain-core==0.3.83
+langchain-google-genai==2.1.12
+langgraph==0.6.11
+google-genai==1.47.0
+
+# Structured configuration / environment
+pydantic==2.12.5
+python-dotenv==1.2.1
+
+# Schema RAG / Vector Retrieval
+sentence-transformers==5.1.2
+faiss-cpu==1.13.0
+networkx==3.2.1
+
+# Database
+mysql-connector-python==9.4.0
+
+# Analytics / UI
+pandas==2.3.3
+streamlit==1.50.0

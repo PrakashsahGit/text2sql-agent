@@ -1,0 +1,240 @@
+[
+  {
+    "entity": "customers.city",
+    "table": "customers",
+    "column": "city",
+    "type": "varchar",
+    "text": "table: customers\n\ncolumn: city\n\ntype: varchar\n\nprimary key: False\n\nforeign key: False\n\nsample values:\nSmithborough\nEast Joseph\nPort Julieberg\nNew Brandi\nElizabethbury"
+  },
+  {
+    "entity": "customers.country",
+    "table": "customers",
+    "column": "country",
+    "type": "varchar",
+    "text": "table: customers\n\ncolumn: country\n\ntype: varchar\n\nprimary key: False\n\nforeign key: False\n\nsample values:\nIndia\nCanada\nNepal\nUSA"
+  },
+  {
+    "entity": "customers.customer_age",
+    "table": "customers",
+    "column": "customer_age",
+    "type": "int",
+    "text": "table: customers\n\ncolumn: customer_age\n\ntype: int\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "customers.customer_gender",
+    "table": "customers",
+    "column": "customer_gender",
+    "type": "varchar",
+    "text": "table: customers\n\ncolumn: customer_gender\n\ntype: varchar\n\nprimary key: False\n\nforeign key: False\n\nsample values:\nFemale\nMale"
+  },
+  {
+    "entity": "customers.customer_id",
+    "table": "customers",
+    "column": "customer_id",
+    "type": "int",
+    "text": "table: customers\n\ncolumn: customer_id\n\ntype: int\n\nprimary key: True\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "customers.customer_name",
+    "table": "customers",
+    "column": "customer_name",
+    "type": "varchar",
+    "text": "table: customers\n\ncolumn: customer_name\n\ntype: varchar\n\nprimary key: False\n\nforeign key: False\n\nsample values:\nJames Anderson\nJulie Martinez\nTiffany Johnson\nPhillip Werner\nMatthew Price"
+  },
+  {
+    "entity": "customers.customer_segment",
+    "table": "customers",
+    "column": "customer_segment",
+    "type": "varchar",
+    "text": "table: customers\n\ncolumn: customer_segment\n\ntype: varchar\n\nprimary key: False\n\nforeign key: False\n\nsample values:\nCorporate\nPremium\nRegular\nLoyal"
+  },
+  {
+    "entity": "customers.region",
+    "table": "customers",
+    "column": "region",
+    "type": "varchar",
+    "text": "table: customers\n\ncolumn: region\n\ntype: varchar\n\nprimary key: False\n\nforeign key: False\n\nsample values:\nWest\nNorth\nEast\nSouth"
+  },
+  {
+    "entity": "marketing_sales.Influencer",
+    "table": "marketing_sales",
+    "column": "Influencer",
+    "type": "text",
+    "text": "table: marketing_sales\n\ncolumn: Influencer\n\ntype: text\n\nprimary key: False\n\nforeign key: False\n\nsample values:\nMega\nMicro\nNano\nMacro"
+  },
+  {
+    "entity": "marketing_sales.Radio",
+    "table": "marketing_sales",
+    "column": "Radio",
+    "type": "double",
+    "text": "table: marketing_sales\n\ncolumn: Radio\n\ntype: double\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "marketing_sales.Sales",
+    "table": "marketing_sales",
+    "column": "Sales",
+    "type": "double",
+    "text": "table: marketing_sales\n\ncolumn: Sales\n\ntype: double\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "marketing_sales.Social Media",
+    "table": "marketing_sales",
+    "column": "Social Media",
+    "type": "double",
+    "text": "table: marketing_sales\n\ncolumn: Social Media\n\ntype: double\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "marketing_sales.TV",
+    "table": "marketing_sales",
+    "column": "TV",
+    "type": "double",
+    "text": "table: marketing_sales\n\ncolumn: TV\n\ntype: double\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "products.brand",
+    "table": "products",
+    "column": "brand",
+    "type": "varchar",
+    "text": "table: products\n\ncolumn: brand\n\ntype: varchar\n\nprimary key: False\n\nforeign key: False\n\nsample values:\nNike\nSony\nIKEA\nApple\nSamsung"
+  },
+  {
+    "entity": "products.category",
+    "table": "products",
+    "column": "category",
+    "type": "varchar",
+    "text": "table: products\n\ncolumn: category\n\ntype: varchar\n\nprimary key: False\n\nforeign key: False\n\nsample values:\nHome\nFashion\nElectronics"
+  },
+  {
+    "entity": "products.cost_price",
+    "table": "products",
+    "column": "cost_price",
+    "type": "float",
+    "text": "table: products\n\ncolumn: cost_price\n\ntype: float\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "products.product_id",
+    "table": "products",
+    "column": "product_id",
+    "type": "int",
+    "text": "table: products\n\ncolumn: product_id\n\ntype: int\n\nprimary key: True\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "products.product_name",
+    "table": "products",
+    "column": "product_name",
+    "type": "varchar",
+    "text": "table: products\n\ncolumn: product_name\n\ntype: varchar\n\nprimary key: False\n\nforeign key: False\n\nsample values:\nSofa 1\nJacket 2\nJacket 3\nLaptop 4\nTable 5"
+  },
+  {
+    "entity": "products.sub_category",
+    "table": "products",
+    "column": "sub_category",
+    "type": "varchar",
+    "text": "table: products\n\ncolumn: sub_category\n\ntype: varchar\n\nprimary key: False\n\nforeign key: False\n\nsample values:\nSofa\nJacket\nLaptop\nTable\nChair"
+  },
+  {
+    "entity": "products.unit_price",
+    "table": "products",
+    "column": "unit_price",
+    "type": "float",
+    "text": "table: products\n\ncolumn: unit_price\n\ntype: float\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "sales.customer_id",
+    "table": "sales",
+    "column": "customer_id",
+    "type": "int",
+    "text": "table: sales\n\ncolumn: customer_id\n\ntype: int\n\nprimary key: False\n\nforeign key: True\n\nsample values:"
+  },
+  {
+    "entity": "sales.delivery_days",
+    "table": "sales",
+    "column": "delivery_days",
+    "type": "int",
+    "text": "table: sales\n\ncolumn: delivery_days\n\ntype: int\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "sales.discount_percent",
+    "table": "sales",
+    "column": "discount_percent",
+    "type": "float",
+    "text": "table: sales\n\ncolumn: discount_percent\n\ntype: float\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "sales.order_id",
+    "table": "sales",
+    "column": "order_id",
+    "type": "varchar",
+    "text": "table: sales\n\ncolumn: order_id\n\ntype: varchar\n\nprimary key: False\n\nforeign key: False\n\nsample values:\nORD1\nORD2\nORD3\nORD4\nORD5"
+  },
+  {
+    "entity": "sales.payment_method",
+    "table": "sales",
+    "column": "payment_method",
+    "type": "varchar",
+    "text": "table: sales\n\ncolumn: payment_method\n\ntype: varchar\n\nprimary key: False\n\nforeign key: False\n\nsample values:\nDebit Card\nCredit Card\nUPI\nCash"
+  },
+  {
+    "entity": "sales.product_id",
+    "table": "sales",
+    "column": "product_id",
+    "type": "int",
+    "text": "table: sales\n\ncolumn: product_id\n\ntype: int\n\nprimary key: False\n\nforeign key: True\n\nsample values:"
+  },
+  {
+    "entity": "sales.quantity",
+    "table": "sales",
+    "column": "quantity",
+    "type": "int",
+    "text": "table: sales\n\ncolumn: quantity\n\ntype: int\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "sales.rating",
+    "table": "sales",
+    "column": "rating",
+    "type": "float",
+    "text": "table: sales\n\ncolumn: rating\n\ntype: float\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "sales.returned",
+    "table": "sales",
+    "column": "returned",
+    "type": "tinyint",
+    "text": "table: sales\n\ncolumn: returned\n\ntype: tinyint\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "sales.sale_date",
+    "table": "sales",
+    "column": "sale_date",
+    "type": "date",
+    "text": "table: sales\n\ncolumn: sale_date\n\ntype: date\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "sales.sale_id",
+    "table": "sales",
+    "column": "sale_id",
+    "type": "int",
+    "text": "table: sales\n\ncolumn: sale_id\n\ntype: int\n\nprimary key: True\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "sales.sales_channel",
+    "table": "sales",
+    "column": "sales_channel",
+    "type": "varchar",
+    "text": "table: sales\n\ncolumn: sales_channel\n\ntype: varchar\n\nprimary key: False\n\nforeign key: False\n\nsample values:\nRetail\nOnline\nMobile App"
+  },
+  {
+    "entity": "sales.shipping_cost",
+    "table": "sales",
+    "column": "shipping_cost",
+    "type": "float",
+    "text": "table: sales\n\ncolumn: shipping_cost\n\ntype: float\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  },
+  {
+    "entity": "sales.tax_percent",
+    "table": "sales",
+    "column": "tax_percent",
+    "type": "float",
+    "text": "table: sales\n\ncolumn: tax_percent\n\ntype: float\n\nprimary key: False\n\nforeign key: False\n\nsample values:"
+  }
+]

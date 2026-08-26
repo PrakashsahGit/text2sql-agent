@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Env
+myenv/
+venv/
+
+# Environment Variables
+.env
+
+# Streamlit
+.streamlit/
+
+# FAISS
+*.faiss
+*.pkl
+*.bin
+
+# Mac
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Generated Images
+*.png
