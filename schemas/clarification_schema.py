@@ -7,19 +7,34 @@ class ClarificationDecision(
 ):
 
     # ==========================
-    # current status
+    # INTENT
+    # ==========================
+    # Determines what type of
+    # request the user made.
+    #
+    # analytics:
+    #   Database / analytical request
+    #
+    # conversation:
+    #   Normal chat / non-database request
+    # ==========================
+    intent: str
+
+
+    # ==========================
+    # CURRENT STATUS
     # ==========================
     status: str
 
 
     # ==========================
-    # original query
+    # ORIGINAL QUERY
     # ==========================
     query: str
 
 
     # ==========================
-    # clarification prompt
+    # CLARIFICATION PROMPT
     # ==========================
     clarification_question: Optional[
         str
@@ -27,7 +42,7 @@ class ClarificationDecision(
 
 
     # ==========================
-    # user answer to clarification
+    # USER ANSWER TO CLARIFICATION
     # ==========================
     clarification_response: Optional[
         str
@@ -35,7 +50,7 @@ class ClarificationDecision(
 
 
     # ==========================
-    # merged query after HITL
+    # MERGED QUERY AFTER HITL
     # ==========================
     resolved_query: Optional[
         str

@@ -725,10 +725,6 @@ from tools.sql_validator import (
     validate_sql
 )
 
-from tools.query_classifier import (
-    is_sql_query
-)
-
 
 # ===================================
 # CLEAN LLM SQL OUTPUT
@@ -857,27 +853,7 @@ def sql_node(
     )
 
 
-    # ===================================
-    # QUERY CLASSIFICATION
-    # ===================================
-    if not is_sql_query(query):
-
-
-        return {
-
-            **state,
-
-            "sql": None,
-
-            "result": [],
-
-            "final_answer":
-            (
-                "This question does not "
-                "require database analysis."
-            )
-        }
-
+    
 
     # ===================================
     # PRINT RETRIEVED ENTITIES

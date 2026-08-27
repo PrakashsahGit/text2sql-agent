@@ -28,8 +28,6 @@ METRICS = {
             unit_price * quantity
             * discount_percent / 100
         )
-        +
-        shipping_cost
         -
         (
             cost_price * quantity
